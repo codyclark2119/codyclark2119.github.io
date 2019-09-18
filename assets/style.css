@@ -1,0 +1,89 @@
+
+body {
+    background-image:url("https://media2.giphy.com/media/3ohhwNqFMnb7wZgNnq/giphy.gif");
+    color: rgb(221,221,221);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    font-family: 'Merriweather', serif;
+}
+
+.dropdown-toggle {
+    font-size: 125%;
+}
+
+#myImg {
+    height: 100%;
+    width: 100%;
+}
+
+#myCarousel {
+    height: 100%;
+    width: 100;
+}
+
+.carousel-item img {
+    height: 600px;
+    width: 100%;
+}
+
+.bio{
+    background-image: linear-gradient(transparent, transparent, transparent,rgb(96, 136, 247));
+    opacity : 0.85;
+    border-radius: 120px;
+}
+
+strong{
+    font-weight: 200;
+    font-style: italic;
+    color: rgb(96, 136, 247);
+    text-transform: uppercase;
+}
+
+.project {
+    border-radius: 15px;
+    background-image: linear-gradient(transparent, transparent, rgb(96, 136, 247),rgb(96, 136, 247));
+    opacity : 0.85;
+}
+
+.dropdown-menu {
+    background: transparent;
+    background-image: linear-gradient(transparent,rgb(96, 136, 247));
+}
+
+.dropdown-menu a {
+    color: white;
+    
+}
+
+
+.project1 {
+    border-radius: 15px;
+    background-image: linear-gradient(transparent, transparent, transparent,rgb(96, 136, 247));
+    opacity : 0.85;
+
+}
+
+.project2 {
+    display: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #myCarousel {
+      display: none;
+    }
+    .project2 {
+        display: contents;
+    }
+    .card-body a {
+        float: left;
+        padding: 5px;
+        margin: 2px auto
+    }
+    .navbar-brand h3 {
+        font-size: 110%;
+        margin-bottom: 0;
+    }
+  }
