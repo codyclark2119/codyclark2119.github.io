@@ -2,8 +2,6 @@
 body {
     background-image:url("https://media2.giphy.com/media/3ohhwNqFMnb7wZgNnq/giphy.gif");
     color: rgb(221,221,221);
-    background-size: cover;
-    background-repeat: no-repeat;
     height: 100%;
     width: 100%;
     font-family: 'Merriweather', serif;
@@ -67,6 +65,7 @@ strong{
 
 .project2 {
     display: none;
+    opacity: 0.75;
 }
 
 
