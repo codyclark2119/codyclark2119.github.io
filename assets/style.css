@@ -48,7 +48,7 @@ strong{
 
 .dropdown-menu {
     background: transparent;
-    background-image: linear-gradient(transparent,rgb(96, 136, 247));
+    background-image: linear-gradient(transparent,rgb(96, 136, 247),rgb(96, 136, 247));
 }
 
 .dropdown-menu a {
