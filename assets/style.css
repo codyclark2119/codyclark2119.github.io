@@ -30,6 +30,7 @@ body {
     background-image: linear-gradient(transparent, transparent, transparent,rgb(96, 136, 247));
     opacity : 0.85;
     border-radius: 120px;
+    font-size: 125%;
 }
 
 strong{
