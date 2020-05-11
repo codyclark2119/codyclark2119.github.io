@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/codyclark2119
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://codyevanclark.com
+  * I am codyclark2119 (https://keybase.io/codyclark2119) on keybase.
+  * I have a public key ASCc42KFAYGdojjbqwRGH-7X-_B_ibxm3Gfbg9fyF-JH5Qo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01204210d15214c076e0143fd6443d043684c03e68a0df348a26306e8ade3f7f17f40a",
+      "host": "keybase.io",
+      "kid": "01209ce3628501819da238dbab04461feed7fbf07f89bc66dc67db83d7f217e247e50a",
+      "uid": "f2023fd4c8ae78f57f49fcaab0d74919",
+      "username": "codyclark2119"
+    },
+    "merkle_root": {
+      "ctime": 1589215084,
+      "hash": "687eb21e4a1fdf3fd3330ee7766d9c16c2e8246264303919ce4c4813e43f5abac863cab862a12a6eb986f10eed9894c630d13b3de4c8e401f1261589663c36fa",
+      "hash_meta": "331179c4762cdfae4abf7c46424a43c711fcc075b47e42f8ffd5341df37d2107",
+      "seqno": 16254437
+    },
+    "service": {
+      "entropy": "Zz5YYB7l/gf8JqjbloluhLA9",
+      "hostname": "codyevanclark.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.4.2"
+  },
+  "ctime": 1589215097,
+  "expire_in": 504576000,
+  "prev": "ca1ec80d4a96b8c95b52c6b22f5caaa80376b80b35711c009b830790c888e13f",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgnONihQGBnaI426sERh/u1/vwf4m8Ztxn24PX8hfiR+UKp3BheWxvYWTESpcCDMQgyh7IDUqWuMlbUsayL1yqqAN2uAs1cRwAm4MHkMiI4T/EIEyEKq1W04hJiJaYFscc8oF/hvbalmXvbtYDQJZ/6URcAgHCo3NpZ8RAHlLrazvP+hMTUjZ8FQdiJ3Ah+CkuG7sGZujaTQaGvcMyRzY6Dd7S+XrXoZLNXwHo0UseRWEySwGS/XS43SWwAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIIdw24WSTKZ20fSdjboYWS3j+CJ+MQN4PCIRi8Ilq36yo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/codyclark2119
+
+==================================================================
