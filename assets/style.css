@@ -1,94 +1,52 @@
-
-body {
-    background-image:url("https://media2.giphy.com/media/3ohhwNqFMnb7wZgNnq/giphy.gif");
-    color: rgb(221,221,221);
-    height: 100%;
-    width: 100%;
-    font-family: 'Merriweather', serif;
-}
-
-.dropdown-toggle {
-    font-size: 125%;
-}
-
-#myImg {
-    height: 450px;
-    width: 325px;
-    border-radius: 30%
-}
-
-#myCarousel {
-    height: 100%;
-    width: 100;
-}
-
-.carousel-item img {
-    height: 600px;
-    width: 100%;
-}
-
-.bio{
-    background-image: linear-gradient(transparent, transparent, transparent,rgb(96, 136, 247));
-    opacity : 0.85;
-    border-radius: 120px;
-    font-size: 125%;
-    height: 95%;
+body, html {
+  height: 100%;
+  color: white;
 }
 
 strong{
-    font-weight: 200;
-    font-style: italic;
-    color: rgb(96, 136, 247);
-    text-transform: uppercase;
+  font-weight: 200;
+  font-style: italic;
+  color: rgb(96, 136, 247);
+  text-transform: uppercase;
 }
 
-.project {
-    border-radius: 15px;
-    background-image: linear-gradient(transparent, transparent, rgb(96, 136, 247),rgb(96, 136, 247));
-    opacity : 0.85;
+.background-p1 {
+  background-color: #212129;
 }
 
-.dropdown-menu {
-    background: transparent;
-    background-color: rgb(96, 136, 247);
+.parallax {
+  background-image: url("./background.jpg");
+  min-height: 365px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.dropdown-menu a {
-    color: white;
-    
+.parallax-2 {
+  background-image: url("./background.jpg");
+  min-height: 250px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.tech{
-    opacity : .85;
+.container-p1 {
+  border-top: 5px solid	#4c5265;
+  border-bottom: 5px solid	#4c5265;
 }
 
-.project1 {
-    border-radius: 15px;
-    background-image: linear-gradient(transparent, transparent, transparent,rgb(96, 136, 247));
-    opacity : 0.85;
-
+.bio{
+  background-image: linear-gradient(transparent, transparent, rgb(76,82,101));
+  opacity : 0.85;
+  border-radius: 120px;
+  font-size: 125%;
+  height: 105%;
 }
 
-.project2 {
-    display: none;
-    opacity: 0.75;
+#myImg {
+  height: 450px;
+  width: 335px;
+  border-radius: 30%;
 }
-
-
-@media only screen and (max-width: 768px) {
-    #myCarousel {
-      display: none;
-    }
-    .project2 {
-        display: contents;
-    }
-    .card-body a {
-        float: left;
-        padding: 5px;
-        margin: 2px auto
-    }
-    .navbar-brand h3 {
-        font-size: 110%;
-        margin-bottom: 0;
-    }
-  }
