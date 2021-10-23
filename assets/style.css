@@ -1,6 +1,7 @@
 body, html {
   height: 100%;
   color: white;
+  font-family: 'Roboto Mono', monospace;
 }
 
 strong{
@@ -12,6 +13,26 @@ strong{
 
 .background-p1 {
   background-color: #212129;
+}
+
+.page-load {
+  opacity: 0;
+  animation: page-load ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.links-nav {
+  text-decoration: none;
+  color: white;
+}
+
+.links-nav:hover {
+  text-decoration: none;
+  color: white;
+  animation-name: nav-hover;
+  animation-duration: .7s;
+  animation-fill-mode: forwards;
 }
 
 .parallax {
@@ -47,6 +68,28 @@ strong{
 
 #myImg {
   height: 450px;
-  width: 335px;
+  width: 330px;
   border-radius: 30%;
+}
+
+@keyframes page-load {
+  0% {
+    opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+@keyframes nav-hover {
+  from {
+    text-decoration: none;
+    color: white;
+  }
+  to {
+    text-decoration: underline;
+    font-weight: 200;
+    font-style: italic;
+    color: rgb(96, 136, 247);
+  }
 }
