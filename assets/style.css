@@ -11,6 +11,11 @@ strong{
   text-transform: uppercase;
 }
 
+.tech {
+  width: 100%;
+  height: 100%;
+}
+
 .background-p1 {
   background-color: #212129;
 }
