@@ -30,12 +30,15 @@ strong{
 .links-nav {
   text-decoration: none;
   color: white;
+  animation-name: nav-hover-out;
+  animation-duration: .7s;
+  animation-fill-mode: forwards;
 }
 
 .links-nav:hover {
   text-decoration: none;
   color: white;
-  animation-name: nav-hover;
+  animation-name: nav-hover-in;
   animation-duration: .7s;
   animation-fill-mode: forwards;
 }
@@ -86,7 +89,7 @@ strong{
   }
 }
 
-@keyframes nav-hover {
+@keyframes nav-hover-in {
   from {
     text-decoration: none;
     color: white;
@@ -96,5 +99,18 @@ strong{
     font-weight: 200;
     font-style: italic;
     color: rgb(96, 136, 247);
+  }
+}
+
+@keyframes nav-hover-out {
+  from {
+    text-decoration: underline;
+    font-weight: 200;
+    font-style: italic;
+    color: rgb(96, 136, 247);
+  }
+  to {
+    text-decoration: none;
+    color: white;
   }
 }
