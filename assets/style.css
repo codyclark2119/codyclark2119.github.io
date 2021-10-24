@@ -37,7 +37,7 @@ strong{
 
 .parallax {
   background-image: url("./background.jpg");
-  min-height: 365px; 
+  min-height: 180px; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -67,9 +67,9 @@ strong{
 }
 
 #myImg {
-  height: 450px;
-  width: 330px;
-  border-radius: 30%;
+  height: 85%;
+  width: 90%;
+  border-radius: 120px;
 }
 
 @keyframes page-load {
